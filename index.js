@@ -4,7 +4,7 @@ import cors from 'cors';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const allowedOrigings = ['http://localhost:4200']
+const allowedOrigings = ['http://localhost:4200','https://afghan-proverbs-front.onrender.com']
 app.use(cors({
     origin: allowedOrigings
 }))
